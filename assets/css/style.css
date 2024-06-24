@@ -1,0 +1,242 @@
+/* Basic reset */
+
+* {
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+
+  body{
+    background-color: #848c90;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* HEADER */
+  
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 30px;
+    background-color: #0b1419;
+  }
+
+  .header-danilo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: whitesmoke;
+  }
+  
+  .danilo-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("../images/perfil.jpg");
+    background-size: cover;
+  }
+  
+  .danilo-description h1 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+  }
+  
+  .navigation ul {
+    display: flex;
+    gap: 90px;
+    list-style: none;
+  }
+
+  .navigation ul li {
+    padding: 10px 30px;
+    background-color: #dd5a1f;
+    color: whitesmoke;
+    border-radius: 30px;
+  }
+
+  .navigation ul li:hover {
+    cursor: pointer;
+  }
+
+  .navigation ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  /* MAIN - INDEX */
+
+  .main-index {
+    background-color: #0b1419;
+    color: whitesmoke;
+    padding: 30px 40px 30px 30px;
+    display: flex;
+    gap: 50px;
+  }
+
+  .section1 {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+
+  .section1-content {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #445454;
+    padding: 20px;
+  }
+
+  .div-sections {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-article {
+    width: 40%;
+    box-sizing: content-box;
+    background-color: #445454;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .main-article button {
+    width: 55%;
+    height: 25px;
+    border-radius: 30px;
+    text-transform: uppercase;
+  }
+
+  .section1-content h2, .main-article h2 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+  }
+
+  
+  .div-sections h2 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+
+  /* MAIN - PORTFOLIO */
+
+  .main-portfolio {
+    background-color: #0b1419;
+    color: whitesmoke;
+    padding: 30px;
+    position: relative;
+  }
+
+  .section1-portfolio {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #dd5a1f;
+  }
+
+  .sessao-projetos {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 50px 0;
+  }
+  .projeto img {
+    border: 3px solid #dd5a1f;
+    border-radius: 12px;
+  }
+
+  .section2-portfolio {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    width: 100%;
+    height: 200px;
+  }
+
+  table th {
+    height: 35px;
+  }
+
+  table th, table td {
+    border: 2px solid #dd5a1f;
+    width: 25%;
+    text-align: center;
+  }
+
+  .whatsapp-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #dd5a1f;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+  }
+
+  .whatsapp-button a {
+    text-decoration: none;
+  }
+
+  /* FOOTER */
+
+  footer {
+    background-color: #0b1419;
+    color: whitesmoke;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer p {
+    font-weight: bold;
+  }
